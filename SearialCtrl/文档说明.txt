@@ -1,0 +1,7 @@
+LibSerialCtrl
+"LibSerialCtrl"为以LED8 Customer Display为基础，参照其指令集，
+以Qt5的串口模块来进行封装的库
+
+
+SerialCtrlDemo
+"SerialCtrlDemo"目录存放的是"libSerialCtrl"的测试程序

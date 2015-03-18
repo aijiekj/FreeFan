@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ComPortTestWgt</class>
+ <widget class="QWidget" name="ComPortTestWgt">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>353</width>
+    <height>61</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ComPortTestWgt</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QComboBox" name="ledStatusCmBx">
+     <item>
+      <property name="text">
+       <string>全灭</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>单价</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>总计</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>收款</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>找零</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>清屏</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>初始化</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboBox">
+     <item>
+      <property name="text">
+       <string>123456.78</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>12.54</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="sendCommandBtn">
+     <property name="text">
+      <string>发送</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
